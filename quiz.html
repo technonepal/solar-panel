@@ -1,0 +1,52 @@
+<!-- quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Test Your Solar Knowledge!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="manufacturing.html">How They're Made</a></li>
+                <li><a href="benefits.html">Benefits</a></li>
+                <li><a href="innovations.html">Innovations</a></li>
+                <li><a href="environment.html">Environment</a></li>
+                <li><a href="fun-facts.html">Fun Facts</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="quiz-form">
+                <p>1. What do solar panels turn sunlight into?</p>
+                <input type="radio" name="q1" value="electricity"> Electricity<br>
+                <input type="radio" name="q1" value="heat"> Heat<br>
+                <input type="radio" name="q1" value="water"> Water<br>
+
+                <p>2. What material is used in solar cells?</p>
+                <input type="radio" name="q2" value="silicon"> Silicon<br>
+                <input type="radio" name="q2" value="gold"> Gold<br>
+                <input type="radio" name="q2" value="plastic"> Plastic<br>
+
+                <p>3. Can solar panels work on cloudy days?</p>
+                <input type="radio" name="q3" value="yes"> Yes<br>
+                <input type="radio" name="q3" value="no"> No<br>
+
+                <button type="button" onclick="checkQuiz()">Submit Quiz</button>
+            </form>
+            <p id="quiz-result"></p>
+            <img src="images/quiz-bg.jpg" alt="Quiz background" class="illustration">
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Solar Panels for Kids</p></footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
