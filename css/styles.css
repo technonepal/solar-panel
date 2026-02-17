@@ -78,5 +78,5 @@ button:hover {
 }
 .video-container {
     position: relative; /* z-index only works if position is set */
-    z-index: 10;        /* Higher than your footer/other elements */
+    z-index: 10000;        /* Higher than your footer/other elements */
 }
