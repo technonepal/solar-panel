@@ -76,3 +76,7 @@ button {
 button:hover {
     background-color: #ff6347;
 }
+.video-container {
+    position: relative; /* z-index only works if position is set */
+    z-index: 10;        /* Higher than your footer/other elements */
+}
